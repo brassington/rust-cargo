@@ -1,7 +1,7 @@
 name: Rust-Cargo
 version: 0.0.1
 inherits: ruudk/wercker-box-ubuntu-trusty@1.0.0
-type: service
+type: main
 platform: ubuntu@12.04
 description: wercker box for rust and cargo
 keywords:
