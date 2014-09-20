@@ -1,5 +1,5 @@
 name: Rust-Cargo
-version: 0.0.4
+version: 0.0.5
 inherits: ruudk/ubuntu14.04@1.0.0
 type: main
 platform: ubuntu@12.04
@@ -12,6 +12,5 @@ packages:
 script: |
   sudo apt-get update
   sudo apt-get install build-essential
-  sudo apt-get install binutils
   sudo apt-get install curl
   curl -s https://static.rust-lang.org/rustup.sh | sudo sh
