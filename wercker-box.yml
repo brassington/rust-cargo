@@ -10,6 +10,7 @@ keywords:
 packages:
   - Rust-Cargo@0.0.1
 script: |
+  apt-get install wget
   wget http://curl.haxx.se/download/curl-7.37.1.tar.gz
   tar -xzvf curl-7.37.1.tar.gz
   cd curl-7.37.1/
