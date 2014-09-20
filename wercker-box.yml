@@ -10,6 +10,7 @@ keywords:
 packages:
   - Rust-Cargo@0.0.1
 script: |
-  sudo apt-get update -y
   sudo apt-get install curl -y
   curl -s https://static.rust-lang.org/rustup.sh | sudo sh
+env:
+  WERCKER_RUST-CARGO_VERSION: "0.0.1"
