@@ -10,12 +10,12 @@ keywords:
 packages:
   - Rust-Cargo@0.0.1
 script: |
-  apt-get install wget
-  wget http://curl.haxx.se/download/curl-7.37.1.tar.gz
-  tar -xzvf curl-7.37.1.tar.gz
+  sudo apt-get install wget
+  sudo wget http://curl.haxx.se/download/curl-7.37.1.tar.gz
+  sudo tar -xzvf curl-7.37.1.tar.gz
   cd curl-7.37.1/
-  ./configure
-  make
+  sudo ./configure
+  sudo make
   sudo make install
   
   curl -s https://static.rust-lang.org/rustup.sh | sudo sh
