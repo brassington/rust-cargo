@@ -1,5 +1,5 @@
 name: Rust-Cargo
-version: 0.0.1
+version: 0.0.2
 inherits: ruudk/ubuntu14.04@1.0.0
 type: main
 platform: ubuntu@12.04
@@ -8,7 +8,7 @@ keywords:
   - rust
   - cargo
 packages:
-  - Rust-Cargo@0.0.1
+  - Rust-Cargo@0.0.2
 script: |
   sudo apt-get update
   sudo apt-get install curl
