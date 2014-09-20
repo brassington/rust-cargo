@@ -12,6 +12,7 @@ packages:
 script: |
   sudo apt-get update
   sudo apt-get install wget
+  sudo apt-get install build-essential
   sudo apt-get install binutils
   sudo wget http://curl.haxx.se/download/curl-7.37.1.tar.gz
   sudo tar -xzvf curl-7.37.1.tar.gz
