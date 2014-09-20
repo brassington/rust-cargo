@@ -11,16 +11,7 @@ packages:
   - Rust-Cargo@0.0.1
 script: |
   sudo apt-get update
-  sudo apt-get install wget
-  sudo apt-get install build-essential
-  sudo apt-get install binutils
-  sudo wget http://curl.haxx.se/download/curl-7.37.1.tar.gz
-  sudo tar -xzvf curl-7.37.1.tar.gz
-  cd curl-7.37.1/
-  sudo ./configure
-  sudo make
-  sudo make install
-  
+  sudo apt-get install curl
   curl -s https://static.rust-lang.org/rustup.sh | sudo sh
 env:
   WERCKER_RUST-CARGO_VERSION: "0.0.1"
