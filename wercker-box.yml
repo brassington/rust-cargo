@@ -1,6 +1,6 @@
 name: Rust-Cargo
 version: 0.0.1
-inherits: ruudk/wercker-box-ubuntu-trusty@1.0.0
+inherits: ruudk/ubuntu14.04@1.0.0
 type: main
 platform: ubuntu@12.04
 description: wercker box for rust and cargo
