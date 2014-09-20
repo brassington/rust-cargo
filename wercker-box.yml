@@ -1,0 +1,15 @@
+name: Rust-Cargo
+version: 0.0.1
+inherits: ruudk/wercker-box-ubuntu-trusty@1.0.0
+type: service
+platform: ubuntu@12.04
+description: wercker box for rust and cargo
+keywords:
+  - rust
+  - cargo
+packages:
+  - Rust-Cargo@0.0.1
+script: |
+  sudo apt-get update -y
+  sudo apt-get install curl -y
+  curl -s https://static.rust-lang.org/rustup.sh | sudo sh
