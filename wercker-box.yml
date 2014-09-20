@@ -12,6 +12,6 @@ packages:
 script: |
   sudo apt-get update
   sudo apt-get install build-essential
-  apt-get install binutils
+  sudo apt-get install binutils
   sudo apt-get install curl
   curl -s https://static.rust-lang.org/rustup.sh | sudo sh
